@@ -1,0 +1,14 @@
+{
+  "name": "node-async-weather",
+  "version": "1.0.0",
+  "scripts": {
+    "callback": "tsx src/callbackVersion.ts",
+    "promise": "tsx src/promiseVersion.ts",
+    "async": "tsx src/asyncAwaitVersion.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
